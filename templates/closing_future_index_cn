@@ -1,0 +1,17 @@
+新华社香港{month}月{day}日电  香港股市{day}日总成交额{turnover}亿港元。
+恒生指数：
+开盘：{hsi_opening_point}点
+收盘：{hsi_closing_point}点
+涨跌：{hsi_change_point}点
+国企指数：
+开盘：{hscei_opening_point}点
+收盘：{hscei_closing_point}点
+涨跌：{hscei_change_point}点
+即月恒生指数期货：
+收盘： {hsif1_closing_point}点
+涨跌： {hsif1_change_point}点
+成交： {hsif1_volume}张
+即月国企指数期货：
+收盘： {hhif1_closing_point}点
+涨跌： {hhif1_change_point}点
+成交： {hhif1_volume}张（完）

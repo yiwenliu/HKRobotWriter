@@ -1,0 +1,2 @@
+  Hong Kong, {date} (Xinhua) -- Hong Kong stocks closed {up_or_down} {change_point} points, or {change_rate} percent, to {point} points on {weekday}.
+  The benchmark Hang Seng Index traded between {low_point} and {high_point}. Turnover totaled {turnover_hkd} billion Hong Kong dollars (about {turnover_usd} billion U.S. dollars). Enditem

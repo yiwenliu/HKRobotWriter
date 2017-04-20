@@ -1,0 +1,10 @@
+  HONG KONG, {date} (Xinhua) -- The following are foreign exchange rates against Hong Kong dollar released by Hang Seng Bank Limited on {week}.
+                      Buying        Selling
+  U.S. dollar         {usd_b}       {usd_s}
+  Australian dolar    {aud_b}       {aud_s}
+  Canadian dollar     {cad_b}       {cad_s}
+  Swiss franc         {chf_b}       {chf_s}
+  Euro                {eur_b}       {eur_s}
+  British pound       {gbp_b}       {gbp_s}
+  Japanese yen        {jpy_b}       {jpy_s}
+  (The above exchange rates are expressed per 100 units for the foreign currency, except per 10,000 units for the Japanese yen.) Enditem
