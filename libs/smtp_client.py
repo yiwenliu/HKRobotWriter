@@ -13,10 +13,9 @@ def send_email(body, subject):
     msg = MIMEText(body, 'plain', 'utf-8')
     msg['From'] = Header("机器人写稿程序", 'utf-8')
     msg['Subject'] = Header(subject, 'utf-8')
-    from_addr = 'airlyw@hotmail.com'
-    password = '13b@qre381'
-    to_addr = ['xinhua381@hotmail.com']
-    #to_addr = ['gjleaf@hotmail.com']
+    from_addr = 'write your own here'
+    password = 'write your own here'
+    to_addr = ['write your own here']
     smtp_server = 'smtp-mail.outlook.com'
     smtp_port = 587
     try:
