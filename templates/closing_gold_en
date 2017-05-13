@@ -1,1 +1,2 @@
-Hong Kong, {date} (Xinhua) -- The gold price in Hong Kong closed at {closing_price} Hong Kong dollars per tael on {week}, {up_or_down} {change_price} Hong Kong dollars from the previous trading day, according to the Chinese Gold and Sivler Exchange Society. Enditem
+(TITLE) Gold price closes {up_or_down_adv} in Hong Kong
+HONG KONG, {date} (Xinhua) -- The gold price in Hong Kong closed at {closing_price} Hong Kong dollars(about {closing_price_usd} U.S. dollars) per tael on {week}, {up_or_down} {change_price} Hong Kong dollars from the previous trading day, according to the Chinese Gold and Sivler Exchange Society.(1 U.S. dollar equals to {usd_fx_hkd} HK dollars)  Enditem

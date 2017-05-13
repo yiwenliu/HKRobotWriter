@@ -26,6 +26,7 @@ def fetch_index():
     for item in index_list:
         index_params_dict[item] = http_client(symbol=item, url=url_template.replace("{{index_symbol}}", item),
                                               headers=headers)
+        time.sleep(3)
     return index_params_dict
 
 
@@ -45,6 +46,7 @@ def fetch_stock():
                'Accept': '*/*'}
     for item in symbol_list:
         stock_params_dict[item] = http_client(symbol=item, url=url_template.replace("{{code}}", item), headers=headers)
+        time.sleep(3)
     return stock_params_dict
 
 

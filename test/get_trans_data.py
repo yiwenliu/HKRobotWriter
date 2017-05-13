@@ -13,10 +13,20 @@ r_am_closing_index = '{"code":0,"msg":"\u83b7\u53d6\u6210\u529f","data":{"symbol
 r_closing_index = '{"code":0,"msg":"\u83b7\u53d6\u6210\u529f","data":{"symbol":"HSCEI","status":2,"status_descip":"\u5df2\u6536\u76d8","name":"\u6052\u751f\u4e2d\u56fd\u4f01\u4e1a\u6307\u6570","price":"10273.80","zhangdiee":"-2.61","zhangdiefu":"-0.03%","chengjiaoe":"163.45\u4ebf","jinkaijia":"10269.84","zuoshoujia":"10276.41","zuigaojia":"10282.20","zuidijia":"10147.54","zhouzuigaojia":"10698.28","zhouzuidijia":"8175.96","riqi":"04-07","shijian":"16:09:32","zhenfu":"1.31%","market":"hk"}}'
 
 if __name__ == "__main__":
-    #print fetch_index()
-    #print write_opening_index_en()
-    #print write_morning_closing_index_en()
-    #print write_closing_index_en()
-    print write_closing_fx_en()
+    os.chdir(os.path.abspath(os.path.join(os.path.dirname(sys.argv[0]), os.pardir)))
+    #print 'Now working dir is {}'.format(os.getcwd())
+    #write_opening_index_en()
+    #write_opening_gold_en()
+
+    #write_morning_closing_index_en(demo=r_am_closing_index)
+
+    #write_closing_fx_en()
+    #write_closing_index_en()
+    #write_closing_index_stock_cn()
+    write_closing_future_index_cn()
+
+    #write_closing_gold_en()
+
+
 
 

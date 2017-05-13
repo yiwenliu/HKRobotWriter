@@ -1,1 +1,1 @@
-{index_name}{up_or_down}{change_point}%，收于{closing_point}点。
+{index_name}{up_or_down}{change_point}点，收于{closing_point}点，{up_or_down}幅{change_rate}%。

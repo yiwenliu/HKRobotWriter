@@ -1,1 +1,2 @@
-香港{index_name}{weekday}日{up_or_down}{change_point}点，{up_or_down}幅{change_rate}%，收报{closing_point}点。全日主板成交{turnover}亿港元。
+（标题）港股{day}日{up_or_down}{change_rate}% 收报{closing_point}点
+ 新华社香港{month}月{day}日电 香港{index_name}{day}日{up_or_down}{change_point}点，{up_or_down}幅{change_rate}%，收报{closing_point}点。全日主板成交{turnover}亿港元。

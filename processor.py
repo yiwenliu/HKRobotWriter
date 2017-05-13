@@ -10,17 +10,22 @@ import time
 
 class Parser(object):
     def __init__(self, response):
-        assert isinstance(response, basestring), "response to parse must be a string"
+        #assert isinstance(response, basestring), "response to parse must be a string"
+        #print 'the type of response is {}'.format(typeof(response))
         self.content = response
 
-    def get_date(self):
-        return time.strftime("%B %d", time.localtime())
+    def get_date(self, lang='en'):
+        if lang == 'en':
+            return "%s %d" % (time.strftime("%B", time.localtime()), int(time.strftime("%d", time.localtime())))
 
     def get_week_day(self):
         return time.strftime("%A", time.localtime())
 
     def get_day(self):
         return time.strftime("%d", time.localtime())
+
+    def get_month(self):
+        return time.strftime("%m", time.localtime())
 
 
 class JsonParser(Parser):
@@ -41,8 +46,11 @@ class StockParser(JsonParser):
         self.param_dict = self.content_dict[u'data']
 
     def get_closing_price(self):
+        '''
+        :return: '48.850' -> '48.85'
+        '''
         #return self.param_dict[u'price'].encode('utf-8').strip()
-        return self.param_dict[u'price']
+        return "{:.2f}".format(float(self.param_dict[u'price']))
 
     def get_closing_change(self):
         """
@@ -230,9 +238,11 @@ class USDHKDHtmlParser(HtmlParser):
     """
     def __init__(self, response):
         HtmlParser.__init__(self, response)
+        #self.usdhkd = self.soup.find("div", id="quote-market-notice").parent.span.string.encode('utf-8').strip()
 
     def get_value(self):
         return self.soup.find("div", id="quote-market-notice").parent.span.string.encode('utf-8').strip()
+        #return self.usdhkd
 
 
 class GoldHtmlParser(HtmlParser):

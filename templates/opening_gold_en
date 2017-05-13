@@ -1,1 +1,2 @@
-HONG KONG, {date}（Xinhua) -- The gold price in Hong Kong {up_or_down} {opening_change_price} Hong Kong dollars to open at {opening_price} dollars per tael on {week}, according to the Chinese Gold and Silver Exchange Society.(1 U.S. dollar equals to {usd_fx_hkd} HK dollars) Enditem
+(TITLE) Gold price opens {up_or_down_adv} in Hong Kong
+HONG KONG, {date}（Xinhua) -- The gold price in Hong Kong {up_or_down} {opening_change_price} Hong Kong dollars to open at {opening_price} dollars(about {opening_price_usd} U.S. dollars) per tael on {week}, according to the Chinese Gold and Silver Exchange Society.(1 U.S. dollar equals to {usd_fx_hkd} HK dollars)  Enditem

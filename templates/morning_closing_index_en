@@ -1,1 +1,2 @@
-HONG KONG, {date} (Xinhua) -- Hong Kong stocks {up_or_down} {change_point} points, or {change_rate} percent, to close {weekday}'s morning sesseion at {point} points. Enditem
+TITLE: Hong Kong shares {up_or_down_prep} {change_rate} pct by midday
+HONG KONG, {date} (Xinhua) -- Hong Kong stocks {up_or_down} {change_point} points, or {change_rate} percent, to close {weekday}'s morning session at {point} points.  Enditem

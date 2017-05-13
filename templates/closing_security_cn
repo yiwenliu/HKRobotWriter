@@ -1,0 +1,3 @@
+（标题）港股{day}日{up_or_down_verb}{change_rate}% 收报{closing_point}点
+ 新华社香港{month}月{day}日电 {closing_index_cn}
+ {closing_stock_cn} （完）

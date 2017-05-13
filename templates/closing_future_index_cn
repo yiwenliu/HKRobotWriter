@@ -1,3 +1,4 @@
+（标题）（新华08·海外信息）香港股市行情 （{month}月{day}日）
 新华社香港{month}月{day}日电  香港股市{day}日总成交额{turnover}亿港元。
 恒生指数：
 开盘：{hsi_opening_point}点
@@ -7,6 +8,7 @@
 开盘：{hscei_opening_point}点
 收盘：{hscei_closing_point}点
 涨跌：{hscei_change_point}点
+###当月最后两个交易日请自行核准###
 即月恒生指数期货：
 收盘： {hsif1_closing_point}点
 涨跌： {hsif1_change_point}点
